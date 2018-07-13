@@ -71,7 +71,7 @@ function evaluation(block)
   Visual = ((length(order) * 0.1) - Visualmiss) / (length(order) * 0.1);
   Auditry = ((length(order) * 0.1) - Auditrymiss) / (length(order) * 0.1);
 
-  Accuracy_b1 = [Visual; Auditry];
+  Accuracy = [Visual; Auditry];
 
   outputfile = [order R_vector];
 
