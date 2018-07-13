@@ -80,3 +80,4 @@ function evaluation(block)
 end
 
 evaluation("_b1");
+evaluation("_b2");
